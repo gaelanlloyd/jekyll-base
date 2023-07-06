@@ -1,0 +1,29 @@
+body, input, textarea {
+    font-family: $fonts-sans;
+    font-weight: 300;
+    line-height: 1.333rem;
+}
+
+h1 {
+	border-bottom: 1px solid #000;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+}
+
+hr { background-color: #7F7F7F; }
+
+pre {
+	font-family: monospace !important;
+	font-weight: normal !important;
+	padding: 1em;
+	color: map-get( $colors, "foreground" );
+	background-color: map-get( $colors, "background" );
+	overflow-x: auto;
+	border: 1px solid #A0A0A0;
+	padding: 1em;
+}
+
+code {
+	background-color: map-get( $colors, "accent-light" );
+	padding: 3px 6px;
+}
